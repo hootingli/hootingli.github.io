@@ -5,14 +5,12 @@ body {
 }
 
 .profile-photo {
-    width: 80%;
-    /* Adjust as needed */
+    width: 70%;
     height: auto;
+    display: block;
+    margin: auto; /* Center horizontally */
 }
 
-.bio {
-
-}
 
 /* Responsive styling */
 @media screen and (max-width: 600px) {
