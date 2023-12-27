@@ -20,20 +20,20 @@
                 <header>
                     <nav class="navbar navbar-expand-lg bg-body-tertiary">
                         <div class="container-fluid">
-                            <a class="navbar-brand" href="#">Navbar</a>
+                            <a class="navbar-brand" href="#">Home</a>
                             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="navbar-toggler-icon"></span>
                             </button>
                             <div class="collapse navbar-collapse" id="navbarNav">
                                 <ul class="navbar-nav">
                                     <li class="nav-item">
-                                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                        <a class="nav-link active" aria-current="page" href="#About">About</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">Research</a>
+                                        <a class="nav-link" href="#Research">Research</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">Gallery</a>
+                                        <a class="nav-link" href="#Gallery">Gallery</a>
                                     </li>
                                     
                                 </ul>
@@ -42,17 +42,79 @@
                     </nav>
                 </header>
 
-                <section id="about">
+                <section id="About">
                     <img src="./src/profile-photo.jpg" alt="Researcher's Headshot" class="profile-photo">
                     <br>
                     <div class="bio">
                         <h1>Houting Li</h1>
-                        <p>I am a senior Math and CS undergraduate student at The Chinese University of Hong Kong, advised by Prof. Ronald Lok Ming Lui. I will earn his Bachelor degree in 2024. I also spent a wonderful semester at Rice University at 2022.</p>
-                    </div>
+                        <p>I am a senior Math and CS undergraduate student at The Chinese University of Hong Kong (CUHK), advised by <a href="http://lokminglui.com/" target="_blank">Prof. Ronald Lok Ming Lui</a>. I will earn my Bachelor's degree in 2024. I also spent a wonderful semester at Rice University in 2022.</p>
+                        <br>
+                    </div>                    
                 </section>
 
-                <section id="projects">
-                    <!-- Your projects content goes here -->
+                <section id="Research">
+                    <h2>Research Interest</h2>
+                    <p>My research interest mainly focus on Computer Vision. My previous research was focus on facial image classification and 3D reconstruction,
+                        and my current research project explore generative models.
+                    </p>
+                    <br>
+                    <h2>Research Projects</h2>
+                    <div class="Projects">
+                        <ol class="bibliography">
+                            <li>
+                                <div class="row">
+                                <div class="col-sm-4 abbr">
+                                    <img src="./src/li2024generative.png" class="teaser img-fluid z-depth-1">                                      
+                                </div>
+                                <div id="li2023enhancing" class="col-sm-8">
+                                    <div class="title"><b>Generative Model for 2D Shapes</b></div>
+                                    <div class="author">
+                                        <u>Houting Li</u>, Chenran Lin, and Lok Ming Lui 
+                                    </div>
+                                    <div class="abstract">
+                                        <p>
+                                            In this project, we explore generative model for 2D shapes, utilizing a mathematical representation: conformal welding - which can preserve the geometrical and topological structure of a shape.
+                                        </p>
+                                    </div>
+                                  
+                              
+                                  <!-- Hidden bibtex block -->
+                                  
+                                </div>
+                              </div>
+                            </li>
+                            <br>
+                            <li>
+                                <div class="row">
+                                <div class="col-sm-4 abbr">
+                                    <img src="./src/li2023enhancing.png" class="teaser img-fluid z-depth-1">                                      
+                                </div>
+                                <div id="li2023enhancing" class="col-sm-8">
+                                    <div class="title"><b>Enhancing Facial Classification and Recognition using 3D Facial Models and Deep Learning</b></div>
+                                    <div class="author">
+                                        <u>Houting Li</u>*, Mengxuan Dong*, and Lok Ming Lui 
+                                    </div>
+                                    <div class="periodical">
+                                      <em>arXiv preprint</em>, 2023
+                                    </div>
+                                    <div class="links"> 
+                                        <a href="https://doi.org/10.48550/arXiv.2312.05219" class="btn btn-sm z-depth-0 waves-effect waves-light" role="button" target="_blank">PDF</a>
+                                    </div>
+                                    <div class="abstract">
+                                        <p>
+                                            Accurate analysis and classification of facial attributes are essential in various applications, from human-computer interaction to security systems. In this work, a novel approach to enhance facial classification and recognition tasks through the integration of 3D facial models with deep learning methods was proposed. We extract the most useful information for various tasks using the 3D Facial Model, leading to improved classification accuracy. Combining 3D facial insights with ResNet architecture, our approach achieves notable results: 100% individual classification, 95.4% gender classification, and 83.5% expression classification accuracy. This method holds promise for advancing facial analysis and recognition research.
+                                        </p>
+                                    </div>
+                                  
+                              
+                                  <!-- Hidden bibtex block -->
+                                  
+                                </div>
+                              </div>
+                            </li>
+                        </ol>
+                    </div>
+                    
                 </section>
             </div>
             <div class="col-md-2"></div>
